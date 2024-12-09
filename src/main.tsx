@@ -8,6 +8,8 @@ import './style.css'
 import Header from "./app/Header.tsx";
 import Overview from "./app/Overview.tsx";
 import NotFound from "./app/NotFound.tsx";
+import Stack from "./app/Stack.tsx";
+import Experience from "./app/Experience.tsx";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
     {
         path: '/Overview',
         element: <Overview></Overview>
+    },
+    {
+        path: '/Stack',
+        element: <Stack></Stack>
+    },
+    {
+        path: '/Experience',
+        element: <Experience></Experience>
     },
 ]);
 

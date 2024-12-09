@@ -1,32 +1,25 @@
 function Overview() {
     return (
-        <div className="h-dvh w-dvw bg-midnight">
+        <div className="h-dvh w-dvw p-8 bg-midnight">
             <div className="items-center justify-center">
-                <div className="p-8 border-2 border-yellow text-zinc">
+                <div className="text-zinc">
                     <p className="font-black">
                         Overview:
                     </p>
-                    <p>
+                    <p className="pt-4">
                         I am a software engineer that follows systems throughout the entire application life-cycle— from the birth of the idea all the way to the designing, development, testing, phases and deployment to the web.
                     </p>
-                    <p>
+                </div>
+
+                {/*
+                FIRST TERMINAL VIEWPORT: CYBERSECURITY
+                */}
+                <div className="text-zinc">
+                    <p className="pt-4">
                         I have extensive experience, training, and certifications in various software principles,
                         namely:
                     </p>
-                </div>
 
-                {/*}
-                <div className="p-8 border-2 border-yellow text-zinc">
-                    [terminal viewports here]
-                </div>
-                <div className="p-8 border-2 border-yellow text-zinc">
-                    My current tech-stack consists of:
-                </div>
-                */}
-
-                {/*FIRST TERMINAL VIEWPORT: CYBERSECURITY*/}
-                <div className="p-8 border-2 border-yellow text-zinc">
-                    [tech stack cards + logos]
                     <div className="card">
                         <div className="wrap">
                             <div className="terminal">
@@ -84,7 +77,9 @@ function Overview() {
                         </div>
                     </div>
 
-                    {/*SECOND TERMINAL VIEWPORT: UI/UX DESIGN*/}
+                    {/*
+                    SECOND TERMINAL VIEWPORT: UI/UX DESIGN
+                    */}
                     <div className="card">
                         <div className="wrap">
                             <div className="terminal">
@@ -143,7 +138,9 @@ function Overview() {
                     </div>
 
 
-                    {/*THIRD TERMINAL VIEWPORT: BACKEND*/}
+                    {/*
+                    THIRD TERMINAL VIEWPORT: BACKEND
+                    */}
                     <div className="card">
                         <div className="wrap">
                             <div className="terminal">

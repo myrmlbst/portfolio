@@ -30,8 +30,12 @@ function Header() {
                     <p className="p-2 hover:text-darkblue">
                         <Link to="overview">Overview</Link>
                     </p>
-                    <p className="p-2 hover:text-darkblue">Experience</p>
-                    <p className="p-2 hover:text-darkblue">Stack</p>
+                    <p className="p-2 hover:text-darkblue">
+                        <Link to="experience">Experience</Link>
+                    </p>
+                    <p className="p-2 hover:text-darkblue">
+                        <Link to="stack">Stack</Link>
+                    </p>
                     <p className="p-2 hover:text-darkblue">Contact</p>
                 </div>
                 <div className="text-zinc pt-32 pb-32">
