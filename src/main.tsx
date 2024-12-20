@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
-import Header from "./app/Header.tsx";
+import LandingPage from "./app/LandingPage.tsx";
 import Overview from "./app/Overview.tsx";
 import NotFound from "./app/NotFound.tsx";
 import Stack from "./app/Stack.tsx";
@@ -14,7 +14,7 @@ import Experience from "./app/Experience.tsx";
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Header></Header>,
+        element: <LandingPage></LandingPage>,
         errorElement: <NotFound></NotFound>,
     },
     {
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
     {
         path: '/Experience',
         element: <Experience></Experience>
+    },
+    {
+        path: '/LandingPage',
+        element: <LandingPage></LandingPage>
     },
 ]);
 
